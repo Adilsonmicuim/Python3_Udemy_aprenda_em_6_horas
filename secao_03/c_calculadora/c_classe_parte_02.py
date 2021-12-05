@@ -1,0 +1,16 @@
+class Calculadora:
+
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def soma(self):
+        soma_resultado = self.a + self.b
+        self.impressao(soma_resultado)
+
+    def subtracao(self):
+        subtrai_resultado = self.a - self.b
+        self.impressao(subtrai_resultado)
+
+    def impressao(self, a):
+        print(a)
